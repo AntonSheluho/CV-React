@@ -1,0 +1,447 @@
+.content_box {
+    background-color: white;
+    border: grey solid 1px;
+    box-shadow: 0 0 5px black;
+}
+
+.title {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    font-family: inherit;
+    font-weight: bold;
+    color: #5a5afe;
+}
+
+.data_create__link {
+    text-decoration: none;
+    color: black;
+}
+
+.navig_link {
+    text-decoration: none;
+    color: #5a5afe;
+    font-family: cursive;
+    font-weight: 900;
+    transition-duration: 400ms;
+}
+
+.navig_link:hover {
+    font-size: 25px;
+}
+
+.IT_link {
+    text-decoration: none;
+    color: #5a5afe;
+    font-weight: 600;
+    font-size: 20px;
+    transition-duration: 300ms;
+}
+
+.skill_link {
+    text-decoration: none;
+    color: #5a5afe;
+    font-weight: 600;
+    font-size: 20px;
+    transition-duration: 500ms;
+}
+
+.skill_link:hover {
+    color: red;
+}
+
+.IT_link:hover {
+    font-size: 22px;
+}
+
+.skills__type {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.skills__img {
+    height: 100px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+.body__title {
+    grid-area: header;
+    height: auto;
+}
+
+.title__name {
+    font-size: 40px;
+    font-weight: 900;
+    color: #444d7d;;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.title__profession {
+    font-size: 25px;
+    font-weight: 900;
+    color: #444d7d;;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+.title__navig {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.body__contacts {
+    grid-area: contacts;
+}
+
+.contacts {
+    height: auto;
+    display: grid;
+    grid: 100% / 40% 60%
+}
+
+.my_photo {
+    width: 100%;
+    height: 100%;
+}
+
+.contacts__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 50px;
+}
+
+.data_link {
+    padding-left: 20px;
+    text-decoration: none;
+    color: #5a5afe;
+    font-family: monospace;
+    transition-duration: 400ms;
+}
+
+.data_link:hover {
+    font-size: 25px;
+}
+
+.data_text {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.body__about_me {
+    grid-area: about_me;
+}
+
+.about_me__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_me__iframe {
+    width: 100%;
+    height: 562px;
+}
+
+.body__education {
+    grid-area: education;
+}
+
+.education__content {
+    padding: 10px;
+}
+
+.educationalLadderAndWorkExperience__title {
+    font-size: 24px;
+    font-family: system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    font-weight: bold;
+}
+
+.education__type {
+    height: 110px;
+    padding-left: 30px;
+}
+
+.education__called {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.education__years {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.body__skills {
+    grid-area: skills;
+}
+
+.bigList {
+    position: fixed;
+    top: 20vh;
+    left: 20vw;
+    width: 60vw;
+    height: 60vh;
+    z-index: 5;
+    transition-duration: 300ms;
+}
+
+.body__my_projects {
+    grid-area: my_projects;
+}
+
+.my_projects__content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.butt__left {
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(180deg);
+}
+
+.butt__right {
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    width: 40px;
+}
+
+.slider {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    width: 90%;
+    height: 260px;
+    position: relative;
+}
+
+.slide {
+    display: flex;
+    align-self: center;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    transition-duration: 400ms;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slide__link {
+    align-self: center;
+}
+
+.slide__img {
+    width: 100%;
+    height: 250px;
+    float: right;
+}
+
+.slide__text {
+    align-self: center;
+    padding-left: 10px;
+}
+
+.lang__text {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.body__languages {
+    grid-area: languages;
+}
+
+.body__footer {
+    grid-area: footer;
+}
+
+.why__content {
+    font-size: 20px;
+    padding: 30px;
+}
+
+.footer {
+    height: 70px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+/* 
+@media (max-width: 1100px) {
+    .container {
+        width: 750px;
+    }
+
+    .title__name {
+        height: 10vh;
+    }
+
+    .title__profession {
+        height: 7vh;
+    }
+
+    .contacts {
+        height: 336px;
+    }
+
+    .about_me__iframe {
+        height: 421px;
+    }
+    
+
+    .title {
+        font-size: 35px;
+    }
+
+    .education__called {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 350px;
+    }
+
+    .body__title {
+        height: auto;
+        position: relative;
+    }
+
+    .title__name {
+        height: 14vh;
+    }
+
+    .title__profession {
+        height: 8vh;
+        font-size: 20px;
+    }
+
+    .burger {
+        height: 45px;
+        width: 62px;
+        left: 36vh;
+        top: 33vw;
+        background: url(../img/burger_122704.png) no-repeat;
+    }
+
+
+    .title__navig {
+        position: fixed;
+        height: 209px;
+        flex-direction: column;
+        background-color: grey;
+        width: 33vw;
+        left: 90vh;
+        transition-duration: 300ms;
+    }
+
+    .contacts {
+        height: 158px;
+    }
+
+    .contacts__data {
+        padding-left: 5px;
+    }
+
+    .data_text {
+        font-size: 10px;
+    }
+
+    .data_link {
+        padding-left: 5px;
+    }
+
+    .title {
+        font-size: 29px;
+        height: 14vh;
+        text-align: center;
+    }
+
+    .about_me__iframe {
+        height: 196px;
+    }
+
+    .educationalLadderAndWorkExperience__title {
+        font-size: 20px;
+    }
+
+    .education__type {
+        padding-left: 15px;
+        height: 129px;
+    }
+
+    .education__years {
+        font-size: 20px;
+    }
+
+    .education__called {
+        font-size: 16px;
+        height: 80px;
+        display: block;
+    }
+
+    .IT_link {
+        font-size: 20px;
+    }
+
+    .butt__right {
+        width: 12%;
+    }
+
+    .butt__left {
+        width: 12%;
+    }
+
+    .slider {
+        width: 76%;
+    }
+
+    .slide__img {
+        height: 140px;
+    }
+
+    .slide__text {
+        width: 100%;
+    }
+
+    .activeBurger {
+        opacity: 0.5;
+    }
+
+    .activeTitleNavig {
+        left: 31vh;
+    }
+} */

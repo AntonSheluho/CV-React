@@ -1,0 +1,27 @@
+.title__name {
+    font-size: 40px;
+    font-weight: 900;
+    color: #444d7d;;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.title__profession {
+    font-size: 25px;
+    font-weight: 900;
+    color: #444d7d;;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+.title__navig {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}

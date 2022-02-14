@@ -1,0 +1,41 @@
+.contactsData {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.my_photo {
+    width: 100%;
+    height: 100%;
+}
+
+.contacts__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    font-size: 24px;
+}
+
+.data__phone {
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.data_link {
+    padding-left: 20px;
+    text-decoration: none;
+    color: #5a5afe;
+    font-family: monospace;
+    transition-duration: 400ms;
+}
+
+.data_text {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.data_link:hover {
+    font-size: 26px;
+}

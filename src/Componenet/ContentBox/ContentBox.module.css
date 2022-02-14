@@ -1,0 +1,5 @@
+.content_box {
+    background-color: white;
+    border: grey solid 1px;
+    box-shadow: 0 0 5px black;
+}

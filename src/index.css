@@ -1,0 +1,21 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(207, 207, 207);
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas: 
+  'header'
+  'contacts'
+  'about_me'
+  'education'
+  'skills'
+  'my_projects'
+  'languages'
+  /* 'why_i_want' */
+  'footer'
+  ;
+}

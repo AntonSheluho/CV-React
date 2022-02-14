@@ -1,0 +1,26 @@
+.title__navig {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.navig_link {
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #5a5afe;
+    font-family: cursive;
+    transition-duration: 400ms;
+    font-weight: bold;
+}
+
+.link:hover {
+    font-size: 22px;
+}
