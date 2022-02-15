@@ -1,0 +1,14 @@
+.wrapper {
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 80% 1fr;
+
+}
+
+.slide__wrap {
+    height: 350px;
+}
+
+.slide {
+    height: 100%;
+}
