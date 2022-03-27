@@ -21,6 +21,9 @@ const  Education = React.forwardRef((props, ref) => {
                         <Post date={'2009 - 2012'} post={'Baranovichi State Professional Lyceum of Mechanical Engineering, electrician'} />
                         <div className="workExperience">
                             <div className="educationalLadderAndWorkExperience__title">WORK EXPERIENCE</div>
+                            <Post date={'2022'} post={'CV (HTML, CSS, JS)'} />
+                            <Post date={'2022'} post={'Diplomas work from course JS single page app  “Midi Keyboard” (JavaScript:'} />
+                            <Post date={'2021'} post={'Diplomas work from course (HTML, CSS, JavaScript)'} />
                             <Post date={'July 2014 - August 2021'} post={'"Stroytrest No. 25", branch "BM No. 172", an electrician installer, 5 category from 2017'} />
                         </div>
                     </div>

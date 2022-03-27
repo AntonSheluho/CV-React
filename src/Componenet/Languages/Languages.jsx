@@ -9,7 +9,7 @@ export default function Languages() {
                 <ul>
                     <li className="lang__text">Russian</li>
                     <li className="lang__text">Belarusian</li>
-                    <li className="lang__text">English A2+ (tutor assessment) </li>
+                    <li className="lang__text">English B1 (tutor assessment) </li>
                 </ul>
             </div>
         </div>
